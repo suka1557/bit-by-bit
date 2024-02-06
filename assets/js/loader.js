@@ -20,7 +20,7 @@ $(document).ready(function () {
         newDiv.append(titleDiv, dateDiv, descriptionDiv);
 
         // Append the new div to the body (or any other container)
-        $('#blog_lister').append(newDiv);
+        $('#blog_card_info').append(newDiv);
 
         // Load content from the current blog file and replace the content of the new div
         $.ajax({
