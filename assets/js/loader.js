@@ -27,7 +27,6 @@ $(document).ready(function () {
             url: 'blogs/' + blogFile,
             dataType: 'html',
             success: function (data) {
-                console.log( $('<div>').html(data).find(".title").text());
 
                 // Populate the inner divs with content from the loaded blog file
                 let a_tag = ($('<a>').attr('href', 'blogs/' + blogFile));
