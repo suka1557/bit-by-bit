@@ -9,18 +9,18 @@ $(document).ready(function () {
     // Loop through the array and load content for each blog file
     blogFiles.forEach(function (blogFile) {
         // Create a new div element for each blog
-        var newDiv = $('<div>').addClass('blog_section');
+        var newDiv = $('<div>').addClass('blog-card') //.append($('<div>').addClass('card').append($('<div>').addClass('card-body')));
 
         // Create three inner divs with specific classes
-        var titleDiv = $('<div>').addClass('title');
-        var dateDiv = $('<div>').addClass('date');
-        var descriptionDiv = $('<div>').addClass('description');
+        var titleDiv = $('<h3>').addClass('blog_title');
+        var dateDiv = $('<h4>').addClass('blog_date');
+        var descriptionDiv = $('<p>').addClass('blog_description');
 
         // Append the inner divs to the new div
         newDiv.append(titleDiv, dateDiv, descriptionDiv);
 
         // Append the new div to the body (or any other container)
-        $('#blog_indexer').append(newDiv);
+        $('#blog_lister').append(newDiv);
 
         // Load content from the current blog file and replace the content of the new div
         $.ajax({
