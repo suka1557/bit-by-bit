@@ -515,7 +515,7 @@ h6 {
   }
 
 .individual-blog-card {
-  box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
+  box-shadow: inset 5px 5px 12px #b0dceb, 5px 5px 12px rgba(168, 215, 228, 0.16);
   border-radius: 10px;
   justify-content: flex-start;
   align-items: center;
