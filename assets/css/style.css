@@ -514,29 +514,31 @@ h6 {
     flex-direction: column;   
   }
 
+.individual-blog-card {
+  box-shadow: inset 5px 5px 12px #b0dceb, 5px 5px 12px rgba(168, 215, 228, 0.16);
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
 
 .sidebar1 {
-  display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
-    border-radius: 10px;
+    display: flex;
     flex-basis: 10%;
-    background-color: #fff;
-    color: #000;
+    background-image: linear-gradient(15deg, transparent, #ade5ec);
+    background-size: 100% 100%;
+    background-repeat: repeat;
   }
 
 
 
 .sidebar2 {
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
-    border-radius: 10px;
     flex-basis: 10%;
-    background-color: #fff;
-    color: #000;
+    background-image: linear-gradient(15deg, transparent, #ade5ec);
+    background-size: 100% 100%;
+    background-repeat: repeat;
 }
 
 
