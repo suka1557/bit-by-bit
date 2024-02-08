@@ -522,6 +522,14 @@ h6 {
   padding: 20px 20px 20px 20px;
 }
 
+.blog_content {
+  box-shadow: inset 5px 5px 12px #b0dceb, 5px 5px 12px rgba(168, 215, 228, 0.16);
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+}
+
 
 .sidebar1 {
     display: flex;
